@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-image: url("https://ak4.picdn.net/shutterstock/videos/5903684/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Header, TOP section CSS */
+h2{
+    margin: 1% auto !important;
+}
+.top{
+    padding: 15%;
+    height: 90vh;
+}
+.cityList{
+    width: 60vw !important;
+    margin: auto;
+}
+
+/* Footer, Bottom section CSS */
+.bottom{
+    height: 10vh;
+}
+.copyright-text{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+
+/* All cards css */
+.card-container{
+    display: flex !important;
+    justify-content: space-between;
+}
+.card{
+    margin: 2% 1%;
+    background-color: rgb(146, 185, 230) !important;
+}
+.dateText{
+    font-size: 20px;
+    margin: 5px auto;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+.weatherDescription{
+    font-size: 17px;
+    margin: 1px auto;
+    font-weight: 900;
+    color: rgb(219, 96, 96);
+    font-variant: small-caps;
+}
+.err{
+    text-align: center !important;
+    background-color: rgb(146, 185, 230);    
+    padding: 2%;
+    width: 100%;
+    color: rgb(250, 115, 115);
+    border-radius: 10px;
+    font-weight: 700;
+}
